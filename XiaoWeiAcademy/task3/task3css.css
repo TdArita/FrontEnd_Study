@@ -1,66 +1,59 @@
 
-#one {
-	position: absolute;
-	right:-20px;
-	margin: 20px;
+body {
+	margin: 0px;
 	padding: 0px;
+}
+#one {
 	background-color: #eee;
-	width: 100%;
-	height:420px ;
+	overflow: hidden; 
 	border: 1px solid blue;
+	margin: 20px;
+	padding: 20px;
 }
 
 
 #two1 {
 	position: absolute;
-	top: 30px;
-	margin-left: 20px;
 	background-color: #ffffff;
-	width: 200px;
+	width: auto;
 	display: block;
 	height: 100px;
-	padding: 20px;
 	float: left;
 	border: 1px solid blue;
+}
+#team {
+	margin: 10px;
 }
 #two11 {
 	display: block;
 	margin-right: 0px;
 	float: left;
-
 }
 #two12 {
 	margin-top: 0px;
 	margin-left: 20px;
 	float: left;
-
 }
 
 
 #two2 {
-	position: absolute;
-	top: 30px;
-	left: 240px;
-	margin-right: 160px;
-	margin-left: 50px;
+	position: relative;
+	left: 220px;
+	margin-right: 360px;
+	margin-bottom: 300px;
+	background-color: #ffffff;
+	border: 1px solid blue;
 	padding: 20px;
 	padding-top: 0px;
-	float: left;
-	background-color: #ffffff;
-	width: auto;
-	border: 1px solid blue;
 }
 
 
 #two3 {
 	position: absolute;
-	top: 30px;
-	right: 20px;
-	width: 80px;
+	top: 40px;
+	right: 40px;
 	padding: 20px;
 	background-color: #ffffff;
 	float: right;	
-	margin-top: 0px;
-	margin-right: 0px;
 	border: 1px solid blue;
 }
