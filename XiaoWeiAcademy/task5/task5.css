@@ -1,0 +1,145 @@
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	body {
+		background-color: #DEDEDE;
+	}
+	a:visited {color: #2E3142;}
+
+	#first {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		position: absolute;
+		right: 10px;
+		top: 10px; 
+	}
+
+	ul li {
+		display: inline-block;
+		color: #FFFFFF;
+	}
+
+	h1 {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		height: 60;
+		width: 100%;
+		background-color: #333333;
+	}
+
+	h4 {
+		color: #727776;
+	}
+	h6 {
+		color: #727776;
+	}
+	#art1 {
+		padding: 20px;
+		margin: 10px;
+		position: relative;
+		border-style: outset;
+		background-color: #FFFFFF;
+	}
+	#art2 {
+		padding: 20px;
+		margin: 10px;
+		position: relative;
+		border-style: outset;
+		background-color: #FFFFFF;
+	}
+	#art3 {
+		padding: 20px;
+		margin: 10px;
+		position: relative;
+		border-style: outset;
+		background-color: #FFFFFF;
+	}
+	#final {
+		padding: 20px;
+		margin: 10px;
+		position: relative;
+		border-style: outset;
+		background-color: #FFFFFF;
+	}
+	#submit {
+		padding: 20px;
+		margin: 10px;
+		position: relative;
+		border-style: outset;
+		background-color: #FFFFFF;
+	}
+	#copyright {
+		color: #FFFFFF;
+		background-color: #000000;
+		text-align: center;
+		height: 70px;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		border: 1px solid #DEDEDE;
+	}
+	tr,td {
+		border-collapse: collapse;
+		border: 1px solid #DEDEDE;
+	}
+	#tablehead {
+		color: #FFFFFF;
+		background-color: #333333;
+	}
+	#tabletail {
+		background-color: #cccccc;
+	}
+	#sidebar {
+		text-align: left;
+	}
+	#mail {
+		text-align: ;
+	}
+	#mailadd {
+		text-align: ;
+	}
+	#passport {
+		text-align: ;
+	}
+	#retype {
+		text-align: ;
+	}
+	#passportadd {
+		text-align: ;
+	}
+	#sex {
+		text-align: ;
+	}
+	#city {
+		text-align: ;
+	}
+	#like {
+		text-align: ;
+	}
+	#discription {
+		text-align: ;
+	}
+	#submit1 {
+		width: 90%;
+		height: 50px;
+		color: #FFFFFF;
+		background-color: #3355D0;
+		border-radius: 10px;
+		border-color: #ffffff;
+
+
+	}
+	p {
+		white-space: pre;
+	}
+	#textarea {
+		margin: auto;
+	}
+	#submit {
+		text-align: center;
+	}
