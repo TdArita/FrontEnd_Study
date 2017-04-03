@@ -9,7 +9,7 @@ body{
 	width: 892px;
 	height: 1386px;
 	margin: auto;
-	background-color: #c5c6df;
+	background-color: ;
 	padding-left: 44px;
 	padding-right: 44px;
 }
@@ -34,18 +34,17 @@ body{
 	font-size: 12px;
 }
 #date {
-	position: absolute;
+	float: right;
 	color: #d45d5c;
 	font-size: 12px;
 	right: 116px;
-	top: 40px;
-	margin: 0px;
+	margin-top: -28px;
 }
 .box-header hr{
 	margin: 0px;
-	padding: 0px;
-	color: #938e8c;
-	height: 2px;
+	padding: 0px;;
+	border:1px solid #938e8c ;
+
 }
 
 /*-----------------------------------*/
@@ -59,8 +58,7 @@ body{
 }
 #intro-text hr{
 	width: 203px;
-	height: 2px
-	color:#cc8091;
+	border:1px solid #cc8091 ;
 }
 #intro-text span{
 	display: block;
@@ -110,3 +108,4 @@ body{
 	font-size: 12px;
 	color: #cc8091;
 }
+/*-----------------------------------------------*/
