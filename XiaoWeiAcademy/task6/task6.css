@@ -2,11 +2,41 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
+
+
 .box{
-	width: 980px;
-	height: 1298px;
+	width: 892px;
+	height: 1386px;
 	margin: auto;
 	background-color: #c5c6df;
 	padding-left: 44px;
 	padding-right: 44px;
+}
+
+.box-header{
+	height: 63px;
+}
+#redbox{
+	width: 110px;
+	height: 61px;
+	background-color: #d45d5c;
+}
+#redbox p{
+	width: 110px;
+	height: 61px;
+	display: table-cell;
+	vertical-align: bottom;
+	/*与红色背景设置为相同大小 */
+	color: #ffffff;
+	padding-top: ;
+	font-size: 12px;
+}
+
+#date {
+	position: absolute;
+	color: #d45d5c;
+	font-size: 12px;
+	margin-right: 0px;
+	margin-top: 0px;
+
 }
