@@ -4,7 +4,9 @@ body{
 }
 .box{
 	width: 980px;
-	height: 1386px;
+	height: 1298px;
 	margin: auto;
 	background-color: #c5c6df;
+	padding-left: 44px;
+	padding-right: 44px;
 }
