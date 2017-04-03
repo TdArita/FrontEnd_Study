@@ -1,3 +1,4 @@
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -48,8 +49,13 @@ body{
 }
 
 /*-----------------------------------*/
+.box-intro{
+	padding-top: 20px;
+}
 #intro-text{
 	width: 203px;
+	float: right;
+	margin-top: -5px;
 }
 #intro-text hr{
 	width: 203px;
@@ -61,6 +67,46 @@ body{
 }
 .intro-text-bigblack{
 	font-size: 24px;
+	font-family: 微软雅黑;
 	color: #000000;
-	text
+	text-decoration: underline;
+	line-height: 40px;
+}
+.intro-text-smallblack{
+	font-size: 12px;
+	color: #676767;
+	font-family: 楷体;
+	line-height: 10px;
+}
+#intro-text-biggreen{
+	font-size: 116px;
+	color: #75b86b;
+	font-family: 微软雅黑;
+	font-style: italic;
+	line-height: 120px;
+	margin-left: -15px;
+}
+#intro-text-bigpink{
+	font-size: 55px;
+	font-family: 微软雅黑;
+	color: #cc8091;
+}
+#intro-text-bigpink{
+	height: 70px;
+	margin-left: 5px;
+}
+#intro-text-middlesmall{
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+	line-height: 15px;
+}
+#intro-text-middlepink{
+	font-size: 21px;
+	color: #cc8091;
+
+}
+#intro-text-smallpink{
+	font-size: 12px;
+	color: #cc8091;
 }
