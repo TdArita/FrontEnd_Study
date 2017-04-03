@@ -12,9 +12,10 @@ body{
 	padding-left: 44px;
 	padding-right: 44px;
 }
-
+/*----------------------------------*/
 .box-header{
 	height: 63px;
+
 }
 #redbox{
 	width: 110px;
@@ -31,12 +32,35 @@ body{
 	padding-top: ;
 	font-size: 12px;
 }
-
 #date {
 	position: absolute;
 	color: #d45d5c;
 	font-size: 12px;
-	margin-right: 0px;
-	margin-top: 0px;
+	right: 116px;
+	top: 40px;
+	margin: 0px;
+}
+.box-header hr{
+	margin: 0px;
+	padding: 0px;
+	color: #938e8c;
+	height: 2px;
+}
 
+/*-----------------------------------*/
+#intro-text{
+	width: 203px;
+}
+#intro-text hr{
+	width: 203px;
+	height: 2px
+	color:#cc8091;
+}
+#intro-text span{
+	display: block;
+}
+.intro-text-bigblack{
+	font-size: 24px;
+	color: #000000;
+	text
 }
