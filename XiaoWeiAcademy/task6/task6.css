@@ -168,8 +168,45 @@ body{
 /*-------------------------------------------------*/
 .box-article{
 	margin-top: 300px;
-	width: 500px;
+	width: 434px;
 }
-#article-left span{
-	display: block;
+#left-yellow-en{
+	font-size: 72px;
+	font-weight: bold;
+	font-style: oblique;
+	font-family: 黑体;
+	color: #f5e327;
+}
+#left-blue-en{
+	font-weight: bold;
+	font-family: 黑体;
+	font-size: 42px;
+	line-height: 16px;
+	color: #11456b;
+}
+#left-blue-ch{
+	font-weight: bold;
+	font-family: 黑体;
+	font-size: 33px;
+	color: #11456b;
+}
+#blue-hr{
+	color: #11456b;
+	border: 1px solid;
+}
+#left-yellow-ch{
+	font-size:70px;
+	font-family: 微软雅黑;
+	color: #f5e327;
+	float: left;
+}
+.left-text{
+	font-size: 12px;
+	font-family: 宋体;
+	color: #767777;
+	line-height: 16px;
+}
+#article-left img{
+	float: right;
+
 }
