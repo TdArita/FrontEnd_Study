@@ -165,3 +165,11 @@ body{
 	line-height: 16px;
 	opacity: 0.7;
 }
+/*-------------------------------------------------*/
+.box-article{
+	margin-top: 300px;
+	width: 500px;
+}
+#article-left span{
+	display: block;
+}
