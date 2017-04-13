@@ -23,7 +23,9 @@ var aqiData = [
   ["成都", 90],
   ["西安", 100]
 ];
-
+function sortNumber(a,b){
+  return a-b 
+}
 function () {
 
   /*
@@ -31,9 +33,17 @@ function () {
   遍历读取aqiData中各个城市的数据
   将空气质量指数大于60的城市显示到aqi-list的列表中
   */
-var arr = new new Array()
+var arr = new Array()
 var ul = document.getElementById('aqi-list');
-
+var str = '';
+var n = 0;
+for (var i = 0; i < aqi-list.length; i++) {
+  arr[i] = aqiData[i][1];
+  if (arr[i]>60) {
+    var sort = arr.sort(sortNumber);
+    n++;
+  }
+}
  }
 
 </script>
