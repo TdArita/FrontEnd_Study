@@ -24,8 +24,9 @@ var aqiData = [
   ["西安", 100]
 ];
 function sortNumber(a,b){
-  return a-b 
+  return a - b 
 }
+
 function () {
 
   /*
@@ -37,14 +38,16 @@ var arr = new Array()
 var ul = document.getElementById('aqi-list');
 var str = '';
 var n = 0;
-for (var i = 0; i < aqi-list.length; i++) {
+for (var i = 0; i < aqiData.length; i++) {
   arr[i] = aqiData[i][1];
   if (arr[i]>60) {
     var sort = arr.sort(sortNumber);
     n++;
-  }
+    str += '<li>第'+n+'名：'+aqiData[i][0]+','+arr[i]+'</li>';
+    ul.innerHTML= str;
 }
- }
+}
+}
 
 </script>
 </body>
