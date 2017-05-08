@@ -25,3 +25,6 @@
 ##  任务一：零基础JavaScript编码（一）
 ###   [code](https://github.com/TdArita/FrontEnd_Study/tree/master/BinBinAcademy/task1/task1.html)
 ###   [demo](https://tdarita.github.io/FrontEnd_Study/BinBinAcademy/task1/task1.html)
+##  任务二：零基础JavaScript编码（二）
+###   [code](https://github.com/TdArita/FrontEnd_Study/tree/master/BinBinAcademy/task2/task2.html)
+###   [demo](https://tdarita.github.io/FrontEnd_Study/BinBinAcademy/task2/task2.html)
