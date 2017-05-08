@@ -19,3 +19,9 @@
 ##  任务六：通过HTML及CSS模拟报纸排版
 ###   [code](https://github.com/TdArita/FrontEnd_Study/blob/master/XiaoWeiAcademy/task6/task6.html)
 ###   [demo](https://tdarita.github.io/FrontEnd_Study/XiaoWeiAcademy/task6/task6.html)
+
+
+# 斌斌学院
+##  任务一：零基础JavaScript编码（一）
+###   [code](https://github.com/TdArita/FrontEnd_Study/tree/master/BinBinAcademy/task1/task1.html)
+###   [demo](https://tdarita.github.io/FrontEnd_Study/BinBinAcademy/task1/task1.html)
