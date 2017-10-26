@@ -1,5 +1,5 @@
 # 这是我在学习JavaScript中遇到的问题和相应的解决方案
-## 2017年10月19日
+## <font color=#008080>2017年10月19日</font>
 ###  在Alert中实现换行 例如：
 <pre><script type="text/javascript">
   var mya,mya2;
@@ -9,7 +9,7 @@
 </script></pre>
 ## 2017年10月20日
 ### ==(是否相等)是比较操作符 !=(是否不等)是比较操作符，输出true或false(不是1或者0)
-## <2017年10月26日>
+## <font color=#008080>2017年10月26日</font>
 ### for循环中用;符号分隔条件不要用成逗号"," 例如:
 <pre>
 <script type="text/javascript">
