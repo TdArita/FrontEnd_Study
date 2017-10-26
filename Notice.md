@@ -1,4 +1,5 @@
 # 这是我在学习JavaScript中遇到的问题和相应的解决方案
+***
 ## <font color=#008080>2017年10月19日</font>
 ###  在Alert中实现换行 例如：
 <pre><script type="text/javascript">
