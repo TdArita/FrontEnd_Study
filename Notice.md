@@ -14,8 +14,7 @@
 ***
 ## <font color=#008080>2017年10月26日</font>
 ### for循环中用;符号分隔条件不要用成逗号"," 例如:
-<pre>
-<script type="text/javascript">
+<pre><script type="text/javascript">
 var myarr=new Array();
 for(var i=0;i<3;i++){
     myarr[i]=new Array();
@@ -23,13 +22,11 @@ for(var i=0;i<3;i++){
     myarr[i][j]=i*j;
 }
 document.write("第三行第六个数组值为:"+myarr[2][5]);
-</script>
-</pre>
+</script></pre>
 ***
 ## 2017年10月29日
-### document.write 加入换行符 如:
-<pre>
-<script type="text/javascript">
+### JS输出加入换行符 如:
+<pre><script type="text/javascript">
  //创建数组
  var arr=["*","##","***","&&","****","##*"];
  arr[7]="**";
@@ -39,5 +36,5 @@ document.write(arr[0]+"<br/>");
 document.write(arr[7]+"<br/>");
 document.write(arr[2]+"<br/>");
 document.write(arr[4]+"<br/>");
-</pre>
+</script></pre>
 ***
