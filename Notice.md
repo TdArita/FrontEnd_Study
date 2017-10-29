@@ -26,3 +26,18 @@ document.write("第三行第六个数组值为:"+myarr[2][5]);
 </script>
 </pre>
 ***
+## 2017年10月29日
+### document.write 加入换行符 如:
+<pre>
+<script type="text/javascript">
+ //创建数组
+ var arr=["*","##","***","&&","****","##*"];
+ arr[7]="**";
+ //显示数组长度
+alert(arr.length);
+document.write(arr[0]+"<br/>");
+document.write(arr[7]+"<br/>");
+document.write(arr[2]+"<br/>");
+document.write(arr[4]+"<br/>");
+</pre>
+***
