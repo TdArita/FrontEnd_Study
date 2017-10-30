@@ -38,3 +38,50 @@ document.write(arr[2]+"<br/>");
 document.write(arr[4]+"<br/>");
 </script></pre>
 ***
+### switch else 如果没有break 将会从选择的case继续往下运行下去
+<pre>var myweek =7;
+switch(myweek)
+{
+ case 1:
+ case 2:
+ document.write("学习理念知识");
+ break;
+ case 3:
+ case 4:
+ document.write("到企业实践");
+ break;
+ case 5:
+ document.write("总结经验");
+ break;
+ case 6:
+ case 7:
+ document.write("周六、日休息和娱乐");
+ break;
+ default:
+ document.write("星期八?");
+}
+</script></pre>
+***
+## 2017年10月30日
+### js事件文本发生改变 oninput()要比onchange()好用
+***
+### var声明的变量无法知道是字符串还是数字，使用parseInt()函数能转化为整数 如：
+<pre><script type="text/javascript">
+ function count(){
+     var a=document.getElementById('txt1').value;
+     var b=document.getElementById('txt2').value;
+     var c=document.getElementById('select').value;
+     var d;
+     if (c=="+"){
+         d=parseInt(a)+parseInt(b);
+     }
+     else if(c=="-"){
+         d=parseInt(a)-parseInt(b);
+     }
+     else{
+         d=parseInt(a)/parseInt(b);
+     }
+     document.getElementById('fruit').value=d;
+ }
+</script></pre>
+***
