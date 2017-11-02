@@ -85,4 +85,12 @@ switch(myweek)
  }
 </script></pre>
 ***
-##2017年11月1日 
+## 2017年11月2日
+### getTime()最后是毫秒所以在设置时间要精确到毫秒
+<pre><script type="text/javascript">
+ var mydate=new Date();
+  document.write("当前时间："+mydate+"<br>");
+  mydate.setTime( mydate.getTime()  + 2* 60 * 60 * 1000);
+  document.write("推迟二小时时间：" + mydate);
+</script></pre>
+***
