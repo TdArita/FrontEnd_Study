@@ -94,3 +94,5 @@ switch(myweek)
   document.write("推迟二小时时间：" + mydate);
 </script></pre>
 ***
+## 2017年11月3日
+### Math.random()返回的是0-1之间的随机数，0-10之间的随机数要*10
