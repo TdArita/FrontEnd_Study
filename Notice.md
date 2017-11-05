@@ -98,5 +98,27 @@ switch(myweek)
 ### Math.random()返回的是0-1之间的随机数，0-10之间的随机数要*10
 ***
 ## 2017年11月4日   EConf 前端开发者分享会
-### 关键词： express RxJS 微组建开发 异步 面向对象 Ruby中国 rails社区 
+### 关键词： express RxJS 微组建开发 异步 面向对象 Ruby中国 rails社区
 ***
+## 2017年11月5日
+### 数组的排序 myArray.sort(sortMethod)方法
+<pre><script type="text/javascript">
+  function sortNum(a,b) {
+  return a - b;   //升序，如降序，把“a - b”该成“b - a”
+}
+ var myarr = new Array("80","16","50","6","100","1");
+  document.write(myarr + "<br>");
+  document.write(myarr.sort(sortNum));
+</script></pre>
+***
+### 二维数组具体得到数值的方法是Arry[][] 如：
+<pre><script>
+var scoreStr = "小明:87;小花:81;小红:97;小天:76;小张:74;小小:94;小西:90;小伍:76;小迪:64;小曼:76";
+  var scoreArr=[["小明",87],["小花",81],["小红",97],["小天",76],["小张",74],["小小",94],["小西",90],["小伍",76],["小迪",64],["小曼",76]];
+  //var scoreArr=scoreStr.split(";");
+  var sum=0;
+  for(var i=0;i<scoreArr.length;i++){
+      //sum+=parseInt(scoreArr[i].substr(scoreArr[i].indexOf(":")+1));
+      sum=scoreArr[i][1]+sum;
+  };</script></pre>
+  ***s
