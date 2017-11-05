@@ -121,4 +121,4 @@ var scoreStr = "小明:87;小花:81;小红:97;小天:76;小张:74;小小:94;小�
       //sum+=parseInt(scoreArr[i].substr(scoreArr[i].indexOf(":")+1));
       sum=scoreArr[i][1]+sum;
   };</script></pre>
-  ***s
+  ***
