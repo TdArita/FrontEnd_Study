@@ -141,3 +141,17 @@ var scoreStr = "小明:87;小花:81;小红:97;小天:76;小张:74;小小:94;小�
 </body></pre>
 #### document.getElementById() document.getElementsByName() document.getElementsByTagName() 后面两种获取得到的是集合，与数组类似 所以是Elements
 ***
+## 2017年11月7日
+### 文本节点单纯是文本，可以用innerHTML访问
+### while(x&&x.nodeType!=1){}表示的是当x存在且x.nodeType不为1时
+### 写for循环的时候要注意数组的顺序是否会根据循环的变化而变化 如：
+<pre><script type="text/javascript">
+function clearText() {
+  var content=document.getElementById("content");
+  // 在此完成该函数
+  var cnode=content.childNodes;
+  for(i=cnode.length-1;i>0;i--){
+      content.removeChild(cnode[i]);
+  }
+}
+</script></pre>
