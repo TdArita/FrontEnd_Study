@@ -136,6 +136,7 @@ var scoreStr = "小明:87;小花:81;小红:97;小天:76;小张:74;小小:94;小�
    con.style.display="none";
   </script>
 </body></pre>
+***
 #### document.getElementById() document.getElementsByName() document.getElementsByTagName()
 #### 后面两种获取得到的是集合，与数组类似 所以是Elements
 ***
