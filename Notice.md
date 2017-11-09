@@ -129,17 +129,15 @@ var scoreStr = "小明:87;小花:81;小红:97;小天:76;小张:74;小小:94;小�
 #### location.assign(url) 加载新的页面
 #### href="javascript:back()"可以作为标签的属性
 ### dom操作修改style 如：
-<pre><body>
-  <h2 id="con">I love JavaScript</H2>
-  <p> JavaScript使网页显示动态效果并实现与用户交互功能。</p>
-  <script type="text/javascript">
+<pre><script type="text/javascript">
    var con=document.getElementById("con");
    con.style.color="red";
    con.style.backgroundColor="#ccc";
    con.style.display="none";
   </script>
 </body></pre>
-#### document.getElementById() document.getElementsByName() document.getElementsByTagName() 后面两种获取得到的是集合，与数组类似 所以是Elements
+#### document.getElementById() document.getElementsByName() document.getElementsByTagName()
+#### 后面两种获取得到的是集合，与数组类似 所以是Elements
 ***
 ## 2017年11月7日
 ### 文本节点单纯是文本，可以用innerHTML访问
