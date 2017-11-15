@@ -161,8 +161,19 @@ function clearText() {
 ## 2017年11月10日
 ## 2017年11月11日
 ## 2017年11月12日
+***
 ## 2017年11月13日
 ### 条件运算符 如 c?a:b 表示如果c为true,值为a,如果c为false,值为b
 ***
 ## 2017年11月14日
 ### JSON {}
+## 2017年11月15日
+### arguments是函数的参数，不需要指明名称 如：
+<pre>function sayHi() {
+  if (arguments[1] == "bye") {
+    return;
+  }
+
+  alert(arguments[0]);
+}</pre>
+***
